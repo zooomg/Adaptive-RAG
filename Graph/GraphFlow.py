@@ -1,7 +1,7 @@
 from langchain.schema import Document
 from pprint import pprint
 
-from Index.index import retriever
+from Index.Index import retriever
 from LLMs.Generate import rag_chain
 from LLMs.RetrivalGrader import retrieval_grader
 from LLMs.AnswerGrader import answer_grader
